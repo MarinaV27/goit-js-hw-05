@@ -1,6 +1,6 @@
 
 const getUsersWithFriend = (users, friendName) => {
-  return users.filter(user => user.friends === friendName);
+  return users.Object.values(friends).filter(user => user.friends === friendName);
 }
 
 
