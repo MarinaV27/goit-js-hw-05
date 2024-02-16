@@ -1,5 +1,5 @@
 
-const getUserNames = users => { return users.map(user => user.name)}
+const getUserNames = users => users.map(user => user.name)
 
 
 

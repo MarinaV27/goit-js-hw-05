@@ -1,6 +1,6 @@
-const sortByDescendingFriendCount = users => {
-  return users.toSorted((aFriend, bFriend) => bFriend.friends.length - aFriend.friends.length);
-}
+const sortByDescendingFriendCount = users => 
+users.toSorted((aFriend, bFriend) => bFriend.friends.length - aFriend.friends.length);
+
 
 
 
